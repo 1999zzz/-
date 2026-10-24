@@ -28,26 +28,7 @@ Boss 直聘求职助手衍生版。按条件筛岗位，先收藏待确认，勾
 | AI | 筛选、招呼、模型配置 | 已去掉 |
 | 反馈 | 飞书问卷、Telegram | 小红书 |
 上游版权归原作者。本仓库在其基础上改了求职流程，不提供商店安装包。
-## 安装
-需要 [Bun](https://bun.sh)。
-```bash
-bun install
-bun run build:chrome
-```
-2. 打开 `chrome://extensions`（或 `edge://extensions`），开启「开发者模式」
-3. 「加载已解压的扩展程序」，选择目录：`.output/chrome-mv3`
-1. 打开 `chrome://extensions`（Edge 用 `edge://extensions`）
-2. 打开「开发者模式」
-3. 「加载已解压的扩展程序」，选择 `.output/chrome-mv3`
-打包分享：
-开发时：
-```bash
-bun run zip:chrome
-```
-## 开发
-```bash
-bun run dev
-```
+
 ## 上游
 ## 许可证
 MIT。见 [LICENSE](./LICENSE)。
